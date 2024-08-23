@@ -52,7 +52,7 @@ class SingleRoute
 
     public function getMiddlewares():array
     {
-        return $this->middlewares;
+        return $this->middlewares ?? [];
 
     }
 
