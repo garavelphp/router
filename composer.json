@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Garavelphp\\Router\\": "src/"
+      "GaravelPHP\\Router\\": "src/"
     }
   },
   "require-dev": {
