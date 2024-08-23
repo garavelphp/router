@@ -1,0 +1,26 @@
+{
+  "name": "garavelphp/router",
+  "description": "A package to router operations in PHP.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ahmet Çelik",
+      "email": "ben4hmetcelik@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "garavelphp/response": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Garavelphp\\Router\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
